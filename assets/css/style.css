@@ -49,7 +49,7 @@ body{
 /*Posición últimos íconos en dispositivos como iPad*/
 @media(max-width:768px){
     .iconos-final{
-        position: relative; left: 200px;
+        position: relative; left: 150px;
     }
     }
 
