@@ -4,8 +4,13 @@ body{
     font-weight: lighter;
 }
 
+/* Posición de navbar*/
+.navbar{
+    position: absolute;
+}
+
 /* Estilo iconos y fondo*/
-.icono-fondo{
+.icono-fondo, .tarjeta{
     background-color: rgb(3, 143, 145);
 }
 .icono{
