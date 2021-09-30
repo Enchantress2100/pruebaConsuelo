@@ -9,8 +9,8 @@ body{
     position: absolute;
 }
 
-/* Estilo iconos y fondo*/
-.icono-fondo, .tarjeta{
+/* Estilo iconos y fondos*/
+.icono-fondo, .tarjeta, .footer{
     background-color: rgb(3, 143, 145);
 }
 .icono{
@@ -18,4 +18,44 @@ body{
 }
 .tarjeta-borde{
     border: none;
+}
+/*Display de redes sociales*/
+.redes{
+    display: inline-block;
+}
+
+/*Posición Viajes Chile en dispositivos grandes*/
+@media(min-width:1000px){
+.viajes{
+    position: relative;left: 200px;
+}
+}
+
+/*Posición Viajes Chile en dispositivos como iPad*/
+@media(max-width:768px){
+    .viajes{
+        position: relative; left: 0%;
+    }
+    }
+
+/*Posición Viajes Chile en dispositivos pequeños*/
+@media(max-width:375px){
+    .viajes{
+        position:absolute;
+        bottom: auto;
+    }
+    }
+
+/*Posición últimos íconos en dispositivos como iPad*/
+@media(max-width:768px){
+    .iconos-final{
+        position: relative; left: 200px;
+    }
+    }
+
+/*Posición últimos íconos en dispositivos grandes*/
+@media(min-width:1000px){
+.iconos-final{
+    position:relative;left: 200px;
+}
 }
