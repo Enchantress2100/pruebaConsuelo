@@ -32,7 +32,7 @@ body{
 }
 
 /*Posición Viajes Chile en dispositivos como iPad*/
-@media(max-width:768px){
+@media(max-width:846px){
     .viajes{
         position: relative; left: 0%;
     }
@@ -47,7 +47,7 @@ body{
     }
 
 /*Posición últimos íconos en dispositivos como iPad*/
-@media(max-width:768px){
+@media(max-width:846px){
     .iconos-final{
         position: relative; left: 150px;
     }
