@@ -15,7 +15,7 @@ body{
     background-color: rgb(3, 143, 145);
 }
 .icono{
-    height: 30px;
+    color: white;
 }
 .tarjeta-borde{
     border: none;
@@ -28,15 +28,17 @@ body{
 /*Posición Viajes Chile en dispositivos grandes*/
 @media(min-width:1200px){
 .viajes{
-    position: relative;left: 200px;
+    position: absolute;
     bottom: auto;
+    padding-left: 60px;
 }
 }
 
 /*Posición Viajes Chile en dispositivos como iPad*/
 @media(max-width:900px){
     .viajes{
-        position: relative; left: 30px;
+    bottom: auto;
+    padding-left: 20px;
     }
     }
 
@@ -58,13 +60,13 @@ body{
 /*Posición últimos íconos en dispositivos como iPad*/
 @media(max-width:900px){
     .iconos-final{
-        position: relative; left: 180px;
+        position: relative; left: 150px;
     }
     }
 
 /*Posición últimos íconos en dispositivos grandes*/
 @media(min-width:1200px){
 .iconos-final{
-    position:relative;left: 400px;
+    position:relative;left: 900px;
 }
 }
