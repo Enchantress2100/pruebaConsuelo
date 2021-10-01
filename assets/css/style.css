@@ -32,9 +32,9 @@ body{
 }
 
 /*Posición Viajes Chile en dispositivos como iPad*/
-@media(max-width:846px){
+@media(max-width:900px){
     .viajes{
-        position: relative; left: 0%;
+        position: relative; left: 30px;
     }
     }
 
@@ -46,16 +46,23 @@ body{
     }
     }
 
-/*Posición últimos íconos en dispositivos como iPad*/
-@media(max-width:846px){
+
+/*Posición últimos íconos en dispositivos pequeños*/
+@media(max-width:414px){
     .iconos-final{
-        position: relative; left: 150px;
+        position: relative; left: 0%;
+    }
+}
+/*Posición últimos íconos en dispositivos como iPad*/
+@media(max-width:900px){
+    .iconos-final{
+        position: relative; left: 180px;
     }
     }
 
 /*Posición últimos íconos en dispositivos grandes*/
 @media(min-width:1000px){
 .iconos-final{
-    position:relative;left: 200px;
+    position:relative;left: 400px;
 }
 }
