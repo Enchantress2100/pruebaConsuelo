@@ -16,6 +16,7 @@ body{
 }
 .icono{
     color: white;
+    text-decoration:none;
 }
 .tarjeta-borde{
     border: none;
