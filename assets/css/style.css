@@ -39,7 +39,7 @@ body{
     }
 
 /*Posición Viajes Chile en dispositivos pequeños*/
-@media(max-width:375px){
+@media(max-width:414px){
     .viajes{
         position:absolute;
         bottom: auto;
