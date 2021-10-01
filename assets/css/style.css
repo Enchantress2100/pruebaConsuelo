@@ -28,6 +28,7 @@ body{
 @media(min-width:1000px){
 .viajes{
     position: relative;left: 200px;
+    bottom: auto;
 }
 }
 
