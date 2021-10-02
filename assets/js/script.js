@@ -12,3 +12,8 @@ $(document).ready(function(){
       } 
     });
   });
+
+  //Tooltips//
+  $(function () {
+    $('[data-bs-toggle="tooltip"]').tooltip()
+  })
