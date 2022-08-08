@@ -5,6 +5,11 @@ body{
     background-color: black;
 }
 
+/*Smooth scrolling effect*/
+html {
+    scroll-behavior: smooth;
+}
+
 /* Posición de navbar*/
 .navbar{
     position: absolute;
@@ -15,9 +20,10 @@ body{
     background-color: rgb(3, 143, 145);
 }
 .icono{
-    color: white;
     text-decoration:none;
+    color: white;
 }
+
 .tarjeta-borde{
     border: none;
 }
@@ -30,52 +36,15 @@ body{
 @media(min-width:1200px){
 .viajes{
     position: absolute;
-    bottom: auto;
     padding-left: 60px;
+    padding-right: 60px;
 }
 }
 
 /*Posición Viajes Chile en dispositivos como iPad*/
 @media(min-width:750px){
     .viajes{
-    bottom: auto;
     padding-left: 20px;
     position: absolute;
-    }
-    }
-
-/*Posición Viajes Chile en dispositivos pequeños*/
-@media(min-width:320px){
-    .viajes{
-        position:absolute;
-        bottom: auto;
-    }
-    }
-
-
-/*Posición últimos íconos en dispositivos pequeños*/
-@media(min-width:320px){
-    .iconos-final{
-        position: relative; left: 150px;
-    }
-}
-/*Posición últimos íconos en dispositivos como iPad*/
-@media(min-width:750px){
-    .iconos-final{
-        position: relative; left: 550px;
-    }
-    }
-
-/*Posición últimos íconos en dispositivos grandes*/
-@media(min-width:1200px){
-.iconos-final{
-    position:relative;left: 900px;
 }
 }
-
-/*Posición últimos íconos en dispositivos muy grandes*/
-@media(min-width:2000px){
-    .iconos-final{
-        position: relative; left: 2000px;
-    }
-    }
